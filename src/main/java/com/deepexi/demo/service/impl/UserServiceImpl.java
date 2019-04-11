@@ -37,7 +37,6 @@ public class UserServiceImpl implements UserService {
     private RedissonClient redissonClient;
 
 
-    @Transactional
     @Override
     public List<User> getAll() {
         return userMapper.getAll();
