@@ -28,6 +28,7 @@
         <redisson>3.10.0</redisson>
         <mysql>5.1.38</mysql>
         <fastjson>1.2.47</fastjson>
+        <jedis>2.9.0</jedis>
     </properties>
 
     <!--springmvc等web依赖-->
@@ -93,6 +94,13 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson}</version>
+        </dependency>
+
+        <!-- jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${jedis}</version>
         </dependency>
 
         <!--test依赖-->
